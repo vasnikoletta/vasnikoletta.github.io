@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+
+<head>
+<meta charset="utf-8">
+<title>Táplálás - Szobacica</title>
+<link rel="stylesheet" type="text/css" href="css/kittystyle.css" title="normal"> 
+<link rel="alternate stylesheet" type="text/css" href="css/kontraszt.css" title="kontrasztos">
+<script src="scripts/styleswitcher.js"></script>
+</head>
+
+<body>
+
+<header>
+
+	<div class="borito">
+		<img src="pictures/tapl3.1.jpg" alt="Száját nyaló macska arca">
+	</div>
+
+	<input type="search" size="60" class="kereso no-print" maxlength="50">
+	<img src="pictures/searchbar_icon.png" alt="Keresőikon" id="searchicon">
+
+	<div class="menusor">
+	<a href="#tartalom" class="csakolvasando">Ugrás a tartalomra</a>
+	<nav id="gyengenlato" class="no-print">
+        <a
+          id="kontraszt"
+          href="#"
+          onclick="setActiveStyleSheet('kontrasztos');return false;"
+        >
+          <span class="ikon"></span>Kontrasztos</a
+        >
+        <a
+          id="normalbetu"
+          href="#"
+          onclick="setActiveStyleSheet('normal');return false;"
+          ><span class="ikon"></span>Normál</a
+        >
+      </nav>
+
+	<nav class="no-print">
+		<ul id="menu">
+			<li><a href="index.html">Kezdőlap</a></li>
+			<li><a href="egeszseg.html">Egészség</a></li>
+			<li style="border: 2px solid rgba(17,45,58,1); background-color: rgba(155,211,237,1);"><a href="taplalas.html">Táplálás</a></li>
+			<li><a href="macskabiztos.otthon.html">Macskabiztos otthon</a></li>
+		</ul>
+	</nav>
+	</div>
+</header>
+
+<div class="macskatáp">
+<h1 id="tartalom">Mit és mennyit egyen a macskád?</h1>
+<h2>Az ideális macskatáp</h2>
+<p>
+A piacon igen széles a választék, az árak is széles skálán mozognak. Érdemes szem előtt tartani, hogy az egészséges, 
+<b>magas fehérjetartalmú</b> macskatápból általában kevesebb szükséges, betegségek, állatorvosi kiadások oldaláról általában 
+megtérül a drágább macskaeledel ára. Nagyobb kiszerelésben vásárolva szintén jobb minőséghez juthatsz. Kerüld a száraz 
+táp kizárólagos fogyasztását, ez nem tartalmaz elegendő nedvességet. A macskák természetes élőhelyükon <b>alig isznak</b>, 
+természetes táplálékuk fedezi a folyadékszükségletüket. Bent tartott macskák gyakran tartósan folyadékhiányosak, 
+próbáld ivásra ösztönözni például a lakás több pontján elhelyezett itatótállal, csobogóval. Jutalomfalatok helyett 
+is próbálhatsz kígyóuborkát, olívabogyót, sütőtökpürét adni, néhány cica szereti.
+</p>
+<p>
+Ha odáig fajult a helyzet, hogy külön főzöl a cicának, itt találhatsz pár receptet:
+<a href="https://www.haziallat.hu/macska/taplalkozas/macska-etetes-hazikoszt-230/1523/" target="_blank" class="recept">Receptek cicáknak.</a>
+</p>
+<p>
+Gyakori jelenség, hogy a macskák malacokat megszégyenítő ügyességgel talicskáznak az orrukkal a kajában, kiszedik 
+a tányér mellé, majd onnan fogyasztják el. Ezt nem azért teszik, hogy takarításra sarkalljanak, hanem zavaró számukra 
+a tányér pereme, amibe a bajszukkal beleütköznek. Próbáld ki a lapos etetőtálat.
+</p>
+</div>
+
+<div class="jobbra">
+<h2>Az optimális mennyiség</h2>
+
+	<img src="pictures/tap3.2.png" alt="Kövér macska parkettán fekszik">
+
+<p>
+Ebben az esetben igaz, hogy nemcsak a minőség, a mennyiség is nagyon fontos. Szobacicák gyakran választják a 
+mozgásszegény életmódot, gyakori az elhízás, ami esetükben is számos egészégügyi problémához vezethet. Az alábbi 
+táblázat segít megsaccolni, körülbelül milyen mennyiségre van szükség naponta.
+</p>
+
+<table class="tabl">
+<caption>
+<details>
+<summary>Javasolt táplálékmennyiség naponta
+</summary>
+<p id="summ">A naponta javasolt táplálék mennyisége attól függően, hogy a macska alultáplált, normál súlyú vagy túlsúlyos-e</p>
+</details>
+</caption>
+
+	<tr>
+		<th scope="col">Testsúly</th>
+		<th scope="col">Alultáplált</th>
+		<th scope="col">Normál alkatú</th>
+		<th scope="col">Túlsúlyos</th>
+	</tr>
+
+	<tr>
+		<th scope="row">1,8 <abbr title="kilogramm">kg</abbr></th>
+		<td>30 <abbr title="gramm">g</abbr></td>
+		<td>30 <abbr title="gramm">g</abbr></td>
+		<td>20 <abbr title="gramm">g</abbr></td>
+	</tr>
+	<tr>
+		<th scope="row">2,7 <abbr title="kilogramm">kg</abbr></th>
+		<td>45 <abbr title="gramm">g</abbr></td>
+		<td>45 <abbr title="gramm">g</abbr></td>
+		<td>30 <abbr title="gramm">g</abbr></td>
+	</tr>
+	<tr>
+		<th scope="row">3,6 <abbr title="kilogramm">kg</abbr></th>
+		<td>70 <abbr title="gramm">g</abbr></td>
+		<td>60 <abbr title="gramm">g</abbr></td>
+		<td>45 <abbr title="gramm">g</abbr></td>
+	</tr>
+	<tr>
+		<th scope="row">4,5 <abbr title="kilogramm">kg</abbr></th>
+		<td>90 <abbr title="gramm">g</abbr></td>
+		<td>70 <abbr title="gramm">g</abbr></td>
+		<td>45 <abbr title="gramm">g</abbr></td>
+	</tr>
+	<tr>
+		<th scope="row">5,4 <abbr title="kilogramm">kg</abbr></th>
+		<td>110 <abbr title="gramm">g</abbr></td>
+		<td>90 <abbr title="gramm">g</abbr></td>
+		<td>60 <abbr title="gramm">g</abbr></td>
+	</tr>
+	<tr>
+		<th scope="row">6,3 <abbr title="kilogramm">kg</abbr></th>
+		<td>120 <abbr title="gramm">g</abbr></td>
+		<td>90 <abbr title="gramm">g</abbr></td>
+		<td>70 <abbr title="gramm">g</abbr></td>
+	</tr>
+	<tr>
+		<th scope="row">7,3 <abbr title="kilogramm">kg</abbr></th>
+		<td>135 <abbr title="gramm">g</abbr></td>
+		<td>110 <abbr title="gramm">g</abbr></td>
+		<td>90 <abbr title="gramm">g</abbr></td>
+	</tr>
+</table>
+</div>
+
+<div class="kerülendő">
+<h2>Kerülendő vagy ártalmas ételek</h2>
+<p>
+A háztartásban sok olyan étel előfordul, amiből a cicád nem kaphat.
+</p>
+<ul>
+<li>Ilyen például a <b>hagyma</b>, ami szinte minden főtt ételünkben előfordul, ezért sem ajánlott maradékkal etetni a cicát. 
+Tartós fogyasztása vérszegénységhez vezet.</li>
+<li><b>Csokoládé, kakaó</b>: epilepsziás rohamot provokálhat.</li>
+<li><b>Tejtermékek</b>: A macskák általában laktózérzékenyek, a tejtermékek legtöbbükben hasmenést vált ki. Laktózmentes termékekkel, 
+savanyított tejtermékkel próbálkozhatsz, ha nem okoz problémát, néha kaphat egy-egy falatot ezekből is.</li>
+</ul>
+
+</div>
+
+
+<p></p>
+</body>
+
+</html>
